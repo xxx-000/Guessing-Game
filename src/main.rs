@@ -2,7 +2,7 @@ use std::io;
 
 fn main() {
     println!("Guess the number!");//Guess user
- 
+
     println!("Please input your guess.");
 
     //A mutable variable called 'guess' with an initial empty string
