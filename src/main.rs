@@ -2,6 +2,7 @@ use std::io;
 
 fn main() {
     println!("Guess the number!");//Guess user
+ 
     println!("Please input your guess.");
 
     //A mutable variable called 'guess' with an initial empty string
@@ -21,3 +22,4 @@ fn main() {
     //The println! macro automatically replaces {} with the value passed as an argument after the format string—in this case, guess.
     println!("You guessed: {}", guess);
 }
+
